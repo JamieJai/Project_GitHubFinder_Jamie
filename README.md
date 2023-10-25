@@ -1,5 +1,5 @@
 # GitHub Finder 🔍 🐱
-> 해당 레포지토리는 교육용으로 만들어졌으며 어떠한 상업적 용도를 취하지 않습니다!
+> 해당 레포지토리는 교육용으로 만들어졌으며 어떠한 상업적 용도를 취하지 않습니다.
 
 GitHub Finder는 GitHub 사용자를 손쉽게 찾을 수 있게 도와주는 도구입니다! 사용자 이름을 입력하면 해당 사용자의 상세 프로필과 리포지토리 정보를 볼 수 있습니다.
 
@@ -55,6 +55,6 @@ function saveToHistory(username) {
 ---
 <br>
 
-[웹 사이트 미리보기](lighthearted-flan-4aded1.netlify.app)
+[웹 사이트 미리보기](https://lighthearted-flan-4aded1.netlify.app)
 
 <img src="Result.png">
