@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <h1 id="header-title" style="cursor: pointer;">GitHub Finder</h1>
+    </header>
+
+    <div class="container">
+      <div class="search-box">
+        <div class="search-main">Search GitHub Users</div>
+        <div class="search-discribe">Enter a username to fetch a user profile and repos</div>
+        <input list="history" type="text" id="username" placeholder="Enter a username">
+        <datalist id="history"></datalist>
+        <button class="fetchButton" onclick="fetchUser()">Enter</button>
+      </div>
+      <div class="profile-box"> 
+        <div id="profileDisplay" style="display: none;">
+          <div class="profile-left">
+              <img src="path-to-image.jpg" alt="Profile Image">
+              <button class="view-profile">View Profile</button>
+          </div>
+          <div class="profile-right">
+          </div>
+        </div>
+      </div>
+          <div class="latest-repos" >
+            <div class="letestrepos">Latest Repos</div>
+          <div id="repos-list"></div>
+    <footer class="foot">
+        GitHub Finder ©
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+#username {
+    width: 300px;
+    height: 30px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.search-box {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-main {
+    font-size: 26px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.search-discribe {
+    font-size: 15px;
+    color: rgb(166, 166, 166);
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.profile-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 10px 20px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: none;
+}
+
+header {
+    background: #447ce2;
+    color: white;
+    padding: 1px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 8px;
+    margin-bottom: 20px;
+}
+
+#profileDisplay {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-left {
+    flex-direction: column;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-left img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0;
+}
+
+.profile-details {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.profile-details p {
+    border: 1px solid #e1e4e8;
+    margin: -1px; 
+    padding: 10px 0 10px 20px;
+    width: 100%;
+    font-size: small;
+}
+
+.buttons button {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding : 5px 15px 5px 15px;
+}
+
+.buttons {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.publicrepos {
+    background-color: #447ce2;
+    color: #fff;
+    font-size: 12px;
+}
+
+.publicgists {
+    background-color: #c2c5cb;
+    color: #fff;
+    font-size: 12px;
+}
+
+.followers {
+    background-color: #68bd8e;
+    color: #fff;
+    font-size: 12px;
+}
+
+.following {
+    background-color: #79b8c8;
+    color: #fff;
+    font-size: 12px;
+}
+
+.view-profile {
+    border-radius: 100px;
+    border: none;
+    box-shadow: none;
+    margin-top: 5px;
+    padding: 10px 65px 10px 65px;
+    cursor: pointer;
+    background-color: #447ce2;
+    color: white;
+    width: fit-content;
+    transition: background-color 0.3s;
+}
+
+.view-profile:hover {
+    background: #487ee4c5
+}
+
+.repos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.repos-container div {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.letestrepos {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 10px 10px;
+}
+
+.latest-repos {
+    display: none;
+}
+
+.latest-repos h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.repo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0px 10px 10px 10px;
+    align-items: center;
+}
+
+.repo-item span {
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 10px;
+    width: 70px;
+}
+
+.repo-item .repo-name {
+    font-weight: 300;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.repo-name:hover {
+    text-decoration: underline;
+}
+
+.repo-item span:nth-child(2) {
+    background-color: #447ce2;
+    color: #fff;
+}
+
+.repo-item span:nth-child(3) {
+    background-color: #c2c5cb;
+    color: #fff;
+}
+
+.repo-item span:nth-child(4) {
+    background-color: #68bd8e;
+    color: #fff;
+}
+
+.repo-name {
+    font-weight: 100;
+    font-size: small;
+    color: #447ce2
+}
+
+.foot {
+    text-align: center;
+    font-size: 10px;
+    margin: 25px 0 20px;
+}
+
+.fetchButton {
+    padding: 0px;
+    width: 50px;
+    height: 32px;
+    font-size: 12px;
+    color: white;
+    background-color: #447ce2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.fetchButton:hover {
+    background-color: #315daf;
+}
+
+.fetchButton:active {
+    background-color: #c2c5cb;
+}
